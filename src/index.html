@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+<title>Electric Piano Keyboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('images/piano_0.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.custom-logo {
+  width: 200px; /* Adjust this value to make the logo smaller or larger */
+  height: auto;
+}
+</style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
 
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large">
+    <img src="images/logo-no-background.png" alt="logo" class="custom-logo">
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top w3-center">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">35 days left</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+  <div class="w3-display-bottomright w3-padding-large">
+    Photo by <a href="https://www.pexels.com/photo/black-yamaha-piano-164743/" target="_blank">Pixaby</a>
+  </div>
+</div>
+
+</body>
 </html>
